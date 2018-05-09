@@ -26,9 +26,12 @@ HTML5 does not require empty elements to be closed. But if you want stricter val
 
 * It is a best practice to use relative file paths (if possible). When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains. 
 
-* meta name="viewport", um jeito de deixar sua página responsiva, novo no HTML5, se adequa ao tamanho do device.
-
 * HTML5 offers new semantic elements that define the different parts of a web page: header, nav, section, article, aside, footer, details, summary
 
 * If you want to create your layout fast, you can use a framework, like W3.CSS or Bootstrap.
+
+* Responsive Web Design is about using HTML and CSS to resize, hide, shrink, enlarge, or move the content to make it look good on any screen:
+
+* meta name="viewport", um jeito de deixar sua página responsiva, novo no HTML5, se adequa ao tamanho do device.
  
+* The HTML picture element allows you to define different images for different browser window sizes.
