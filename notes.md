@@ -22,3 +22,13 @@ HTML5 does not require empty elements to be closed. But if you want stricter val
 * span is a container for some text, with id, style and class. div is a container for some other HTML elements, also with id, style and class.
 
 
+* Difference Between Class and ID. An HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements
+
+* It is a best practice to use relative file paths (if possible). When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains. 
+
+* meta name="viewport", um jeito de deixar sua página responsiva, novo no HTML5, se adequa ao tamanho do device.
+
+* HTML5 offers new semantic elements that define the different parts of a web page: header, nav, section, article, aside, footer, details, summary
+
+* If you want to create your layout fast, you can use a framework, like W3.CSS or Bootstrap.
+ 
