@@ -35,3 +35,12 @@ HTML5 does not require empty elements to be closed. But if you want stricter val
 * meta name="viewport", um jeito de deixar sua página responsiva, novo no HTML5, se adequa ao tamanho do device.
  
 * The HTML picture element allows you to define different images for different browser window sizes.
+
+* UTF-8 is unicode. It is the dafault encoding for HTML5
+
+* form method: when GET is used, the submitted form data will be visible in the page address field, useful for submissions whose results may be bookmarked. 
+
+* HTML5 added several new input types:
+  color, date, datetime-local, email, month, number, range, search, tel, time, url, week
+  
+  

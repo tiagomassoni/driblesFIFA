@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8">
     <meta name="keywords" content="FIFA, dribles, moves, XBOX">
     <meta name="author" content="Tiago Massoni">
     <meta http-equiv="refresh" content="60">
@@ -30,17 +30,53 @@
 
 <div style="overflow:auto">
     <div class="menu">
-        <a href="#">Chapéu</a>
+        <a href="#">ChapÃ©u</a>
         <a href="#">Pedalada</a>
     </div>
 
     <div class="main">
-        <h2>Chapéu</h2>
-        <p>Aqui estão os controles</p>
+        <h2>ChapÃ©u</h2>
+        <p>Aqui estÃ£o os controles</p>
+    </div>
+
+    <div class="right">
+        <form action="/action_page.php" method="get" target="_blank">
+            <fieldset>
+                <legend>Personal:</legend>
+               First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname">
+                <input type="submit" value="OK">
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+            </fieldset>
+        </form>
+
+        <form action="/action_page.php"
+              oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0
+            <input type="range"  id="a" name="a" value="50">
+            100 +
+            <input type="number" id="b" name="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+        </form>
+
     </div>
 </div>
 
-<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">Â© copyright w3schools.com</div>
 
 </body>
 </html>
